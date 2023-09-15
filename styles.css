@@ -1,0 +1,32 @@
+/* Reset default margin and padding for the body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the slideshow container */
+.slideshow-container {
+    position: absolute;
+    max-width: 100vw;
+}
+
+/* Style each slide */
+.slide {
+    position: absolute;
+    width: 90vw;
+    height: 90vh;
+    opacity: 1; /* Initially hide all slides */
+    transition: opacity 1s ease-in-out; /* Add a smooth transition effect */
+}
+
+/* Style the images within the slides */
+.slide img {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+/* Show the first slide initially */
+.slide:first-child {
+    opacity: 1;
+}
