@@ -3,37 +3,68 @@ body {
     padding: 0;
 }
 
-/* Style the slideshow container */
+
 .slideshow-container {
     position: absolute;
     max-width: 100vw;
 }
 
-/* Style each slide */
 .slide {
     position: absolute;
     width: 90vw;
     height: 90vh;
-    opacity: 1; /* Initially hide all slides */
-    transition: opacity 1s ease-in-out; /* Add a smooth transition effect */
+    opacity: 1; 
+    transition: opacity 1s ease-in-out; 
 }
 
-/* Style the images within the slides */
 .slide img {
     width: 100vw;
     height: 100vh;
 
 }
 
-/* Show the first slide initially */
 .slide:first-child {
     opacity: 1;
 }
 audio {
     position: absolute;
+;
     bottom: 0;
     left: 0;
     width: 100%;
-    z-index: 2; /* Place audio element behind the content */
+    z-index: 3; 
 }
-  
+.confetti-emoji {
+    position: absolute;
+    font-size: 48px; 
+    z-index: 2; 
+    transform-origin: center center; 
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+    transform: rotate(85deg); 
+    font-size: 200px;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+    transform: rotate(185deg);
+    font-size: 200px; 
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+    font-size: 200px;
+    
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+    transform: scaleX(-1);
+    font-size: 200px;
+}
