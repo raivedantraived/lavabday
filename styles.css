@@ -3,7 +3,6 @@ body {
     padding: 0;
 }
 
-
 .slideshow-container {
     position: absolute;
     max-width: 100vw;
@@ -14,7 +13,7 @@ body {
     width: 90vw;
     height: 90vh;
     opacity: 1; 
-    transition: opacity 1s ease-in-out; 
+    transition: opacity 1s ease-in-out;
 }
 
 .slide img {
@@ -33,8 +32,9 @@ audio {
     left: 0;
     width: 100%;
     z-index: 3; 
-    opacity:0.3;
+    opacity: 0.3;
 }
+
 .confetti-emoji {
     position: absolute;
     font-size: 48px; 
