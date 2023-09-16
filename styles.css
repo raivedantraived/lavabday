@@ -28,7 +28,7 @@ body {
 /* Show the first slide initially */
 .slide:first-child {
     opacity: 1;
-}
+/* }
 audio {
     position: absolute;
 ;
@@ -37,3 +37,4 @@ audio {
     width: 100%;
     z-index: 2; /* Place audio element behind the content */
 }
+ */
