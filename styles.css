@@ -29,9 +29,8 @@ body {
 .slide:first-child {
     opacity: 1;
 }
-/* audio {
+audio {
     position: absolute;
-;
     bottom: 0;
     left: 0;
     width: 100%;
